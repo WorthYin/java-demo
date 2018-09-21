@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java-demo
-        image: registry.cn-hangzhou.aliyuncs.com/k8scicd/cicd
+        image: registry.cn-beijing.aliyuncs.com/coostack/codepipe_test
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
