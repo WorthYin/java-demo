@@ -2,6 +2,8 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: java-demo
+  labels:
+    version: 1.1
 spec:
   replicas: 2
   selector:
